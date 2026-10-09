@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Ledesma</title> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+ 
+</head> 
+<body> 
+  <header> 
+    <nav class="nav-container"> 
+      <a href="#home" class="logo">Ledesma</a> 
+      <ul class="nav-links"> 
+        <li><a href="#home">Home</a></li> 
+        <li><a href="#features">Features</a></li> 
+        <li><a href="#contact">Contact</a></li> 
+      </ul> 
+    </nav> 
+  </header> 
+
+  <main> 
+
+    <section id="home" class="hero"> 
+      <div class="hero-content"> 
+        <h1>Welcome to my Website!</h1> 
+        <h2>Hi! My name is Trishia G. Ledesma, and soon to be a Graphic Designer.</h2> 
+        <img src="trishia.jpg" class="hero-img" alt="profile-picture"> 
+        <p>Don't watch the clock; do what it does. Keep going.</p> 
+        <a href="#contact" class="cta-btn">Get Started</a> 
+      </div> 
+    </section> 
+
+
+    <section id="features" class="features"> 
+      <h2 class="section-title">About Me & Features</h2> 
+      <div class="grid"> 
+        <div class="card"> 
+          <h3>Focus College Life</h3> 
+          <p> I'm a freshman studying Information Technology. Right now, I'm just focusing on keeping my GPA up, finding the best study spots on campus, and meeting new people. Let me know if you’re ever down for a study session!</p> 
+        </div> 
+        <div class="card"> 
+          <h3>Passionate & Creative</h3> 
+          <p> I blend technical logic with visual storytelling. I am currently mastering core design principles and tools like Adobe Photoshop and Illustrator to create impactful digital assets. My featured strengths include digital illustration, UI sketching, and a strong eye for layout and color theory, allowing me to turn complex ideas into clean, engaging visuals.</p> 
+        </div> 
+        <div class="card"> 
+          <h3>Vibes</h3> 
+          <p> I am easy to talk to, open to different ideas, and love meeting people from different backgrounds.</p> 
+        </div> 
+      </div> 
+    </section> 
+
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form" action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+  </main> 
+
+  <footer> 
+    <p>&copy; 2026 Ledesma. All rights reserved.</p> 
+  </footer> 
+</body> 
+</html>
