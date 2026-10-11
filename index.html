@@ -1,81 +1,104 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Ledesma</title> 
-
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
- 
-</head> 
-<body> 
-  <header> 
-    <nav class="nav-container"> 
-      <a href="#home" class="logo">Ledesma</a> 
-      <ul class="nav-links"> 
-        <li><a href="#home">Home</a></li> 
-        <li><a href="#features">Features</a></li> 
-        <li><a href="#contact">Contact</a></li> 
-      </ul> 
-    </nav> 
-  </header> 
-
-  <main> 
-
-    <section id="home" class="hero"> 
-      <div class="hero-content"> 
-        <h1>Welcome to my Website!</h1> 
-        <h2>Hi! My name is Trishia G. Ledesma, and soon to be a Graphic Designer.</h2> 
-        <img src="trishia.jpg" class="hero-img" alt="profile-picture"> 
-        <p>Don't watch the clock; do what it does. Keep going.</p> 
-        <a href="#contact" class="cta-btn">Get Started</a> 
-      </div> 
-    </section> 
-
-
-    <section id="features" class="features"> 
-      <h2 class="section-title">About Me & Features</h2> 
-      <div class="grid"> 
-        <div class="card"> 
-          <h3>Focus College Life</h3> 
-          <p> I'm a freshman studying Information Technology. Right now, I'm just focusing on keeping my GPA up, finding the best study spots on campus, and meeting new people. Let me know if you’re ever down for a study session!</p> 
-        </div> 
-        <div class="card"> 
-          <h3>Passionate & Creative</h3> 
-          <p> I blend technical logic with visual storytelling. I am currently mastering core design principles and tools like Adobe Photoshop and Illustrator to create impactful digital assets. My featured strengths include digital illustration, UI sketching, and a strong eye for layout and color theory, allowing me to turn complex ideas into clean, engaging visuals.</p> 
-        </div> 
-        <div class="card"> 
-          <h3>Vibes</h3> 
-          <p> I am easy to talk to, open to different ideas, and love meeting people from different backgrounds.</p> 
-        </div> 
-      </div> 
-    </section> 
-
-
-    <section id="contact" class="contact-section">
-      <h2 class="section-title">Get In Touch</h2>
-      <form class="contact-form" action="#" method="POST">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledesma</title>
+<link rel="preconnect" href="https://googleapis.com">
+<link rel="preconnect" href="https://gstatic.com" crossorigin>
+<link href="https://googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav class="nav-container">
+    <a href="#home" class="logo">Ledesma</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h3>Hi! My name is..</h3>
+        <h1>Trishia G. Ledesma</h1>
+        <h2>A Graphic Designer.</h2>
+        <h3>I'm an IT student that focuses on graphic design, blending technical skills with creative visuals to bring modern digital concepts to life.</h3>
+        <p>Don't watch the clock; do what it does. Keep going.</p>
+        <div class="hero-buttons">
+          <a href="#works" class="cta-btn">View My Works</a>
+          <a href="#contact" class="cta-btn">Get In Touch</a>
         </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+      <div class="hero-media">
+        <img src="trishia.jpg" class="hero-img" alt="profile-picture">
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="works-section">
+<h2 class="section-title">My Works</h2> 
+
+<div class="works-container">
+
+    <div class="work-card"> 
+        <div class="work-img-container"> 
+            <a href="studentprof.webp" target="_blank" title="Click to view full image">
+                <img src="studentprof.webp" alt="Graphic Design Project 2"> 
+            </a>
+        </div> 
+        <div class="work-info"> 
+            <h3>Student Profile</h3> 
+            <p>a structured student profile card I designed inside the editor. The source code utilizes sequential printf statements and double-line equal-sign (===) banners to frame my identity, course section, and status as a 1st-year BSIT student. </p> 
+        </div> 
+    </div> 
+
+    <div class="work-card"> 
+        <div class="work-img-container"> 
+            <a href="bakeshop.webp" target="_blank" title="Click to view full image">
+                <img src="bakeshop.webp" alt="Graphic Design Project 3"> 
+            </a>
+        </div> 
+        <div class="work-info"> 
+            <h3>Welcome to Bakeshop</h3> 
+            <p>My very first C programming project highlights a stylized terminal banner I built for a bakeshop. The screen displays my source code, utilizing sequential printf statements to align a decorative asterisk border around the text "WELCOME TO THE BAKESHOP" and its tagline, "WHISK ♡ BAKE ♡ DECORATE."</p> 
+        </div> 
+    </div>
+
+</div>
+
+  </section>
+
+ <section id="about" class="about-section"> 
+    <h2 class="section-title">About Me</h2> 
+    <p class="about-text">I'm an IT student that focuses on graphic design, sitting at the unique intersection of technology and visual storytelling. With a solid foundation in technical systems combined with a passion for creative layout, typography, and color theory, I specialize in building user-centered designs that are both functional and visually striking. Whether designing digital assets, wireframing interfaces, or developing cohesive brand identities, I leverage my IT background to ensure every project is technically sound and visually impactful. I am constantly exploring new design tools and methodologies to create modern, meaningful digital experiences.</p> 
+</section> 
+
+<section id="contact" class="contact-section"> 
+    <h2 class="section-title">Get In Touch</h2> 
+    
+
+    <form class="contact-form" action="#" method="POST"> 
+        <div class="form-group"> 
+            <label for="name">Your Name</label> 
+            <input type="text" id="name" name="name" placeholder="Enter your name" required> 
+        </div> 
+        <div class="form-group"> 
+            <label for="email">Your Email</label> 
+            <input type="email" id="email" name="email" placeholder="Enter your email" required> 
+        </div> 
+        <div class="form-group"> 
+            <label for="message">Message</label> 
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
         </div>
         <button type="submit" class="submit-btn">Send Message</button>
-      </form>
-    </section>
-  </main> 
+    </form>
 
-  <footer> 
-    <p>&copy; 2026 Ledesma. All rights reserved.</p> 
-  </footer> 
-</body> 
-</html>
+    <div class="contact-buttons-container">
+        <h4><a href="mailto:ledesmatrishia@gmail.com" class="contact-btn-link">email: ledesmatrishia@gmail.com</a></h4>
+    </div>
+</section>
